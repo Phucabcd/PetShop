@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9790aa60-bce0-4f0d-b6f2-58f7e1899297" name="Changes" comment="11/22 latest" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Phucabcd&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PhamNhatHoang/DATN_Fpoly.git&quot;,
+    &quot;accountId&quot;: &quot;547d6c9d-ba64-4be1-90f8-89d676be78f6&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2oXoFe2LQFp8hu2soLc0nS88nnS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.PetShopApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#29 on trongphuc&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/DATN/PetShop/src/main/resources/static/images/banner&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DATN\PetShop\src\main\resources\static\images\banner" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PetShopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="PetShop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.petshop.PetShopApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.petshop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.PetShopApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9790aa60-bce0-4f0d-b6f2-58f7e1899297" name="Changes" comment="" />
+      <created>1731025179788</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731025179788</updated>
+      <workItem from="1731025182501" duration="367000" />
+      <workItem from="1731140850111" duration="3420000" />
+      <workItem from="1731226413260" duration="4896000" />
+      <workItem from="1731238387226" duration="6343000" />
+      <workItem from="1731325052453" duration="1245000" />
+      <workItem from="1731341016109" duration="4593000" />
+      <workItem from="1731479020869" duration="756000" />
+      <workItem from="1731513694003" duration="1454000" />
+      <workItem from="1731521328956" duration="2107000" />
+      <workItem from="1731527204445" duration="2000" />
+      <workItem from="1731590568456" duration="984000" />
+      <workItem from="1731760819300" duration="12154000" />
+      <workItem from="1731859070298" duration="9911000" />
+      <workItem from="1731918427290" duration="3001000" />
+      <workItem from="1731942805709" duration="5376000" />
+      <workItem from="1732028732127" duration="7797000" />
+      <workItem from="1732112215790" duration="2646000" />
+      <workItem from="1732193774365" duration="94000" />
+    </task>
+    <task id="LOCAL-00001" summary="history 0.1">
+      <option name="closed" value="true" />
+      <created>1731025506942</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731025506942</updated>
+    </task>
+    <task id="LOCAL-00002" summary="11/12">
+      <option name="closed" value="true" />
+      <created>1731345800080</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731345800080</updated>
+    </task>
+    <task id="LOCAL-00003" summary="11/14">
+      <option name="closed" value="true" />
+      <created>1731566724631</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731566724631</updated>
+    </task>
+    <task id="LOCAL-00004" summary="11/14 checkout quantity update">
+      <option name="closed" value="true" />
+      <created>1731571537428</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731571537428</updated>
+    </task>
+    <task id="LOCAL-00005" summary="11/16 bug backdrop khong fix dc :)">
+      <option name="closed" value="true" />
+      <created>1731772949025</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731772949025</updated>
+    </task>
+    <task id="LOCAL-00006" summary="11/18 rating 50%">
+      <option name="closed" value="true" />
+      <created>1731868969612</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731868969612</updated>
+    </task>
+    <task id="LOCAL-00007" summary="11/18 rating 80%">
+      <option name="closed" value="true" />
+      <created>1731948076022</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731948076022</updated>
+    </task>
+    <task id="LOCAL-00008" summary="11/19 80%">
+      <option name="closed" value="true" />
+      <created>1732035157051</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732035157051</updated>
+    </task>
+    <task id="LOCAL-00009" summary="11/22 latest">
+      <option name="closed" value="true" />
+      <created>1732264479342</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732264479342</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="history 0.1" />
+    <MESSAGE value="11/12" />
+    <MESSAGE value="11/14" />
+    <MESSAGE value="11/14 checkout quantity update" />
+    <MESSAGE value="11/16 bug backdrop khong fix dc :)" />
+    <MESSAGE value="11/18 rating 50%" />
+    <MESSAGE value="11/18 rating 80%" />
+    <MESSAGE value="11/19 80%" />
+    <MESSAGE value="11/22 latest" />
+    <option name="LAST_COMMIT_MESSAGE" value="11/22 latest" />
+  </component>
+</project>
