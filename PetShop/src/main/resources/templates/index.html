@@ -283,7 +283,7 @@
 <body ng-app="myApp" ng-controller="myCtrl">
 <header id="menu" class="sticky-top" th:insert="~{/layout/_menu}"></header>
 <main class="container p-0 bg-white rounded-3 border border-2 border-dark animate__animated animate__fadeIn animate__faster"
-      th:insert="${view}"></main>
+      th:insert="${view}" ng-cloak></main>
 <footer th:insert="~{/layout/_footer}"
         class="bg-white rounded-3 container overflow-hidden my-3 p-0 border border-2 border-dark"></footer>
 <!--MODULE-->
@@ -431,8 +431,6 @@
                     .then(data => {
                         const results = $.map(data, item => {
                             const itemName = category === "pet" ? item.breed : item.productName;
-
-                            // Kiểm tra điều kiện tên và lấy đường dẫn hình ảnh tương ứng
                             if (itemName.toLowerCase().includes(request.term.toLowerCase())) {
                                 const imageUrl = category === "pet"
                                     ? `/images/pet/${item.photo}`
@@ -467,7 +465,7 @@
 <script>
     const app = angular.module('myApp', []);
     app.controller('myCtrl', function ($scope, $http) {
-        // Cart
+        // Giỏ hàng
         $scope.cart = {
             items: JSON.parse(localStorage.getItem('cart')) || [],
 
@@ -623,12 +621,11 @@
         $scope.errorMessage = '';
 
         $http.get("/api/voucher").then(function (response) {
-            const currentDate  = new Date();
+            const currentDate = new Date();
             $scope.vouchers = response.data.filter(voucher => {
                 const expiryDate = new Date(voucher.expiryDate);
                 return currentDate <= expiryDate
             });
-
         }).catch(function (error) {
             console.error("Error fetching vouchers", error);
         });
@@ -715,8 +712,7 @@
                                         productID: {id: item.id},
                                         quantity: item.quantity,
                                         price: item.price,
-                                        reviewStatus : false
-
+                                        reviewStatus: false
                                     };
                                     //update lai quantity khi checkout
                                     const updateQuantityPromise = $http.put(
@@ -868,6 +864,7 @@
             }).then((result) => {
                 if (result.isConfirmed) {
                     $http.put("/api/order/status/" + id)
+
                         .then(function (response) {
                             Swal.fire({
                                 title: 'Hủy đơn hàng thành công',
@@ -959,5 +956,99 @@
             $scope.reviewData.comment = '';
         };
     });
+</script>
+<script>
+    function subscribe() {
+        // Lấy giá trị từ các trường input
+        const name = document.getElementById('name').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const phoneNumber = document.getElementById('phoneNumber').value.trim();
+
+        // Kiểm tra nếu trường nào để trống
+        if (!name || !email || !phoneNumber) {
+            Swal.fire({
+                title: 'Thông Báo',
+                text: 'Tất cả các trường đều bắt buộc!',
+                icon: 'warning'
+            });
+            return;
+        }
+
+        // Validate email
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
+            Swal.fire({
+                title: 'Thông Báo',
+                text: 'Định dạng Email không hợp lệ!',
+                icon: 'warning'
+            });
+            return;
+        }
+
+        // Validate số điện thoại
+        const phoneRegex = /^0\d{9}$/;
+        if (!phoneRegex.test(phoneNumber)) {
+            Swal.fire({
+                title: 'Thông Báo',
+                text: 'Số điện thoại phải bắt đầu bằng số 0 và có đúng 10 chữ số!',
+                icon: 'warning'
+            });
+            return;
+        }
+
+        // Hiển thị thông báo "Đang xử lý..."
+        Swal.fire({
+            title: 'Đang xử lý...',
+            text: 'Vui lòng chờ...',
+            icon: 'info',
+            showConfirmButton: false,
+            allowOutsideClick: false,
+            didOpen: () => {
+                Swal.showLoading();
+            }
+        });
+
+        // Tạo dữ liệu gửi đi
+        const formData = {
+            name: name,
+            email: email,
+            phoneNumber: phoneNumber
+        };
+
+        // Gửi yêu cầu đến server
+        fetch('http://localhost:8080/api/subscriptions/subscribe', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        })
+            .then(response => {
+                if (response.ok) {
+                    Swal.fire({
+                        title: 'Đăng Ký Thành Công',
+                        text: 'Bạn đã đăng ký thành công!! Vui lòng kiểm tra Email',
+                        icon: 'success'
+                    }).then(() => {
+                        // Reset form sau khi thành công
+                        document.getElementById('subscribeForm').reset();
+                    });
+                } else {
+                    Swal.fire({
+                        title: 'Thông Báo Lỗi',
+                        text: 'Email đã được đăng ký!',
+                        icon: 'error'
+                    });
+                }
+            })
+            .catch(error => {
+                Swal.fire({
+                    title: 'Error',
+                    text: 'Lỗi hệ thống',
+                    icon: 'error'
+                });
+                console.error('Error:', error);
+            });
+    }
 </script>
 </html>
