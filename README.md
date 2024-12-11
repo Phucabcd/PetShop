@@ -73,6 +73,5 @@ AngularJS, Thymeleaf, Spring Boot, RestAPI, API....
 </tr>
 </table>
 
-<h2 id="contribute">📫 Đóng góp</h2>
 
 
