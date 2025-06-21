@@ -1,4 +1,4 @@
-<h1 align="center" style="font-weight: bold;">JavaNinjas💻</h1>
+<h1 align="center" style="font-weight: bold;">Java Web💻</h1>
 
 <p align="center">
 <a href="#tech">Technologies</a>
@@ -9,7 +9,7 @@
 </p>
 
 
-<p align="center">Dự án JavaNinJas làm về đề tài trang bán đồ cho Làng Lá</p>
+<p align="center">Dự án Java Web về thương mại điện tử</p>
 
 
 <p align="center">
@@ -123,8 +123,7 @@ AngularJS, Thymeleaf, Spring Boot, RestAPI, API....
 
 ## Contact
 
-- Author: Your Name
-- Email: your.email@example.com
-- GitHub: [Your GitHub](https://github.com/username)
+- Author: Phuc Nguyen
+- Email: nguyentrongphuc03@gmail.com
 
 
